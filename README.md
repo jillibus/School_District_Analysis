@@ -23,15 +23,15 @@ Maria, the Chief Data Scientist of the City's School District, has tasked me to 
   * Show you the Avg Math and Avg Reading by School, by Grade
 
 ## Resources
-* Data Source:
-* Software: Python 3.7.6,  Jupyter Notebook, Pandas,  Numpty,
+* Data Source: schools_complete.csv, students_complete.csv
+* Software: Python 3.7.10, Jupyter Notebook 6.3.0 
 
 ## Results
 First I will address, is the issue of Thomas High School's 9th Grade test scores.  All of my analysis has been done with Thomas High School's 9th grade's standardized test scores marked as NaN, in the charts you will see below.  In all mathmatical equations it is treated as zero.
 
 First, obviously making all of the math and reading scores of entire grade of a medium sized school, will definitely make an impact. The School District isn't that small so the impact overall wasn't felt by the other schools.  With standard formatting and rounding rules, you would have to look a bit closer to see the difference, but it is there.  I will break it down in the individual areas.
 
-![District Summary]('resources/formatted/f_district_summary.png')
+![District Summary]('blob/main/resources/f_district_summary.png')
 ### How is the district summary affected by the change in data? 
 _Answer:_ Removing the scores for the 9th grade reading and math, overall the District Summary faired very well, again with rounding to the tenth place you will hardly notice the change.  The first 4 areas wouldn't change, and the % Overall Passing was affected 1%.
 * Average Math went down 0.07%
@@ -40,14 +40,15 @@ _Answer:_ Removing the scores for the 9th grade reading and math, overall the Di
 * % Passing Reading went down 0.17%
 * % Overall Passing went down 1.32%
 
-![School Summary]('resources/formatted/f_per_school_summary.png')
+![School Summary]('blob/main/resources/f_per_school_summary.png')
 ### How is the school summary affected by this change?
 * Average Math went down 0.07%
 * Average Reading went down 0.03%
 * % Passing Math went down 0.29%
 * % Passing Reading went down 0.17%
 * % Overall Passing went down 1.32%
-https://github.com/jillibus/School_District_Analysis/blob/main/resources/formatted/f_district_summary.png![School Summary]('resources/formatted/f_spending_summary.png')
+
+![School Summary]('blob/main/resources/f_spending_summary.png')
 #### Difference in School Summary by Spending
 * Average Math went down 0.02%
 * Average Reading went up 0.01%
@@ -55,7 +56,7 @@ https://github.com/jillibus/School_District_Analysis/blob/main/resources/formatt
 * % Passing Reading went down 0.09%
 * % Overall Passing went down 0.13%
 
-![School Summary]('resources/formatted/f_size_summary.png')
+![School Summary]('blob/main/resources/f_size_summary.png')
 #### Difference in School Summary by Size (Small, Medium, Large)
 * Average Math went down 0.02%
 * Average Reading went up 0.01%
@@ -63,7 +64,7 @@ https://github.com/jillibus/School_District_Analysis/blob/main/resources/formatt
 * % Passing Reading went down 0.06%
 * % Overall Passing went down 0.07%
 
-![School Summary]('resources/formatted/f_type_summary.png')
+![School Summary]('blob/main/resources/f_type_summary.png')
 #### Difference in School Summary by Type (Charter and District)
 * Average Math went down 0.01%
 * Average Reading went up 0.01%
