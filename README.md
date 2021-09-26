@@ -23,8 +23,8 @@ Maria, the Chief Data Scientist of the City's School District, has tasked me to 
   * Show you the Avg Math and Avg Reading by School, by Grade
 
 ## Resources
-* Data Source:
-* Software: Python 3.7.6,  Jupyter Notebook, Pandas,  Numpty,
+* Data Source: schools_complete.csv, students_complete.csv
+* Software: Python 3.7.10, Jupyter Notebook 6.3.0 
 
 ## Results
 First I will address, is the issue of Thomas High School's 9th Grade test scores.  All of my analysis has been done with Thomas High School's 9th grade's standardized test scores marked as NaN, in the charts you will see below.  In all mathmatical equations it is treated as zero.
