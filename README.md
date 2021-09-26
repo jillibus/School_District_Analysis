@@ -1,5 +1,7 @@
 ## School District Analysis
- 
+
+![School Logo](resources/School_Logo.png)
+
 ## Overview
 Maria, the Chief Data Scientist of the City's School District, has tasked me to analyize data on the School District in the area high schools for their Standardized Testing, in these categories:
 1.  Overall District Summary
