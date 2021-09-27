@@ -15,11 +15,12 @@ Maria, the Chief Data Scientist of the City's School District, has tasked me to 
   * % Students Passing Math & Reading
 2. The second set of analysis, I will perform, on this data, is a breakdown of each of these categories:
   * Per School
-  * Per Size ( Small, Medium, Large )
-  * Per Budget ( broken down per student )
-  * Per Type ( Charter or District )
-  * Per Avg Math Scores
-  * Per Avg Reading Scores
+  * Details of Thomas High School
+  * Math and Reading Average Scores by Grade
+  * Spending Summary (Schools Broken into groups by Budget per student)
+  * Size Summary (Schools Broken into group by Number of students) 
+  * Type Summary (Schools Categorized by Charter or District type school)
+ 
   * Show you the top 5 schools by their Avg Math and Reading Scores
   * Show you the bottom 5 schools by their Avg Math and Reading Scores
   * Show you the Avg Math and Avg Reading by School, by Grade
@@ -46,7 +47,7 @@ _Answer:_ Removing the scores for the 9th grade reading and math, overall the Di
 ### School Summary
 ![School Summary](resources/f_per_school_summary.png)
 #### How is the school summary affected by this change?
-_Answer:_ The School Summary is a detailed breakdown, by school, of the District Summary, the changes are the same.  I will breakdown the changes of Thomas High School, and then the categories listed above, one by one.
+_Answer:_ The School Summary is a detailed breakdown, by school, of the District Summary, the changes are the same as above.  I will breakdown the changes of Thomas High School, and then the categories listed above, one by one.
 
 ### Thomas High School
 #### How is Thomas High school affected by this change?
@@ -56,6 +57,18 @@ _Answer:_ Well obviously, Thomas High School was the most affected, but mainly i
 * % Passing Math went down 0.09%
 * % Passing Reading went down 0.30%
 * % Overall Passing went down 0.24%
+
+### Top 5 Schools 
+![Top Schools](resources/f_top_schools.png)
+---
+### Bottom 5 Schools
+![Bottom Schools](resources/f_bottom_schools.png)
+---
+
+### Math and Reading Scores by Grade
+![Math Scores](resources/MathReading_by_grade.jpg)
+#### How did changing the 9th Grades scores of Thomas High school affect the other schools Grades?
+_Answer:_ When we look at each school and each grade, these averages were prepared individually.  We took each school separately, then the grades separately and calculated their averages in those students passing Math, in Reading, and then in passing both Math and Reading.  So no other school or grade was affected by removing the scores of Thomas High Schools 9th grade students.  Even the Thomas High Schools 10th, 11th and 12th graders were not impacted with these scores, as the 9th grade scores are not computed in these.
 
 ### Spending Summary
 ![Spending Summary](resources/f_spending_summary.png)
@@ -86,3 +99,38 @@ _Answer:_ Thomas High School is a _Charter School_, this is the Category that sa
 * % Passing Math went down 0.01%
 * % Passing Reading went up 0.04%
 * % Overall Passing went down 0.08%
+
+## Summary
+The City School District has performed well overall, each of the areas are performing well.  Despite the removal of Thomas High Schools 9th grade scores, the District performed pretty much the same.  When the 9th grade students of Thomas High School retake the Standardized Tests, we will rerun the analysis again and see how these numbers change.
+
+The trends we want to point out to the District Superintendant and the School Board are as follows:
+
+**District Summary**
+The _Average Math and Average Reading_ scores are passing for the entire district, so that is something to be proud of, as well as the _% Passing Math and % Passing Reading_ for the district.  So on the whole, the students are doing well on the Standardized Testing provided by the State.
+
+The _% Overall Passing_ is below 'Passing' at 65%, this will need to be an area that will need to be focused on, below are some trends that will help you narrow down the areas in need.
+
+**Per School Summary Breakdown**
+_**Your Top Performing High School is:  Wilson High School**_
+* Wilson High School is categorized as a Small Budget, (<$584) per student, in the District, the only Large High School in this category.
+* Wilson High School is categorized as a Large High School, in the District, the only Large High School with an % Overall Passing >70% (_theirs is 91%_)
+* Wilson High School is categorized as a Charter School.
+
+**School by Spending**
+It is a curious trend on the School by Spending analysis, the schools that have the _highest_ amount of funds per student, are doing the worst! 
+These schools have the lowest _Average Math Score_, which in turn gives them the lowest _% Passing Math_ and then the lowest _% Overall Passing_.  
+* The highest amount spent on students, $645-$674, are the schools that are performing the worst, at **54%**. 
+* We have 3 of our top performing schools with the Smallest budget per student, (<$584), _**Cabrera, Pena and Wilson High Schools at 91%**_.
+* We have 2 of our top performing schools with the Medium budget per student, ($585-$629), _**Griffin and Thomas High Schools at 91%**_.
+
+**School by Size**
+We see another trend here, in which our _Largest Schools_ are suffering, and they too have the lowest _% Overall Passing Percentage_. With % Passing Math, at the very bottom of Passing. 
+* The Largest Schools, are from 2,000-5,000 students, and have an % Overall Passing of **58%**.  
+* Of all of the _Large_ High Schools, only one, has the % Overall Passing above 70%, _**Wilson High School at 91%**_.
+
+**School by Type**
+The last trend found, is that our _Charter Schools_ are outperforming our _District Schools_ but a large margin, _**23%!**_. This is the biggest cause of our _% Overall Passing Percentage_ dropping. 
+* **Every** _District_ High Schools, % Overall Passing is **below** 56%.
+* **Every** _Charter_ High Schools, % Overall Passing is **above** 89%. 
+* We have a 5-way tie for first place, with an % Overall Passing above 70%. _**Cabrera, Griffin, Pena, Thomas and Wilson High Schools at 91%**_
+
