@@ -30,9 +30,9 @@ Maria, the Chief Data Scientist of the City's School District, has tasked me to 
 * Software: Python 3.7.10, Jupyter Notebook 6.3.0 
 
 ## Results
-First I will address, is the issue of Thomas High School's 9th Grade test scores.  All of my analysis has been done with Thomas High School's 9th grade's standardized test scores marked as NaN, in the charts you will see below.  In all mathmatical equations it is treated as zero.
+First, I will address, is the issue of Thomas High School's 9th Grade test scores.  All of my analysis has been done with Thomas High School's 9th grade's standardized test scores marked as NaN, in the charts you will see below.  In all mathmatical equations it is treated as zero.
 
-First, obviously making all of the math and reading scores of entire grade of a medium sized school, will definitely make an impact. The School District isn't that small so the impact overall wasn't felt by the other schools.  With standard formatting and rounding rules, you would have to look a bit closer to see the difference, but it is there.  I will break it down in the individual areas.
+Making all of the math and reading scores of entire grade of a medium sized school, will definitely make an impact. The School District isn't that small so the impact overall wasn't felt by the other schools.  With standard formatting and rounding rules, you would have to look a bit closer to see the difference, but it is there.  I will break it down in the individual areas.
 
 ### District Summary
 ![District Summary](resources/f_district_summary.png)
@@ -134,3 +134,5 @@ The last trend found, is that our _Charter Schools_ are outperforming our _Distr
 * **Every** _Charter_ High Schools, % Overall Passing is **above** 89%. 
 * We have a 5-way tie for first place, with an % Overall Passing above 70%. _**Cabrera, Griffin, Pena, Thomas and Wilson High Schools at 91%**_
 
+Thank you for allowing me to perform this analysis for you. If you have any questions about this report, please let me know and I would be happy to answer them for you.
+Jill Hughes
